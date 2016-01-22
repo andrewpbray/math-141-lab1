@@ -1,0 +1,6 @@
+---
+title: "Lab 1"
+output: html_document
+author: your name here
+---
+
