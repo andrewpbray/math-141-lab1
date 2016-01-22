@@ -1,6 +1,36 @@
 ---
-title: "Lab 1"
+title: "Lab 1: Intro to R"
 output: html_document
 author: your name here
 ---
+
+## Cars Data Set
+
+The cars data set is built into R. You can view the first several lines of this
+data set by simply typing.
+
+```{r}
+head(mtcars)
+```
+
+You can bring up a scatterplot using the `plot()` command.
+
+```{r}
+plot(x = mtcars$cyl, y = mtcars$mpg)
+```
+
+Where you can specify the data to plot on the x and the y axes by specifying
+the name of the data set, then use the `$` to pull out the specific column
+of data that you're interested in.
+
+#### Exercise 1
+In the R chunk below, please provide the line of code that will produce a
+scatterplot for the relationship between horsepower (`hp`) and weight (`wt`). You can see the resulting plot by clicking the "knit HTML" button again. Below the R chunk, please provide add a sentence or two to this document that describes the structure seen in the plot.
+
+```{r}
+
+```
+
+
+
 
