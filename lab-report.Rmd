@@ -28,9 +28,13 @@ In the R chunk below, please provide the line of code that will produce a
 scatterplot for the relationship between horsepower (`hp`) and weight (`wt`). You can see the resulting plot by clicking the "knit HTML" button again. Below the R chunk, please provide add a sentence or two to this document that describes the structure seen in the plot.
 
 ```{r}
-
+mean(c(1,2,3))
 ```
 
 
+`r 2 + 2`
 
+# Test
+
+## Test2
 
